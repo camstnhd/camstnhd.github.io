@@ -1,0 +1,46 @@
+@import url(variables.css);
+@import url(about.css);
+@import url(Arc_projects.css);
+@import url(SE_projects.css);
+@import url(contact.css);
+@import url(navigation.css);
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    overflow-y: scroll;
+    background-color: #10131E;
+    overflow-x: hidden;
+    width: inherit;
+    height: auto;
+}
+
+.highlight {
+    color: var(--highlight);
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    color: darkslategray;
+}
+
+footer {
+    height: 50px;
+    font-family: 'Work Sans','sans-serif';
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+    padding-left: 25%;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}

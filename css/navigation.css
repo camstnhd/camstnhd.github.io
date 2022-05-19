@@ -1,0 +1,49 @@
+.navigation {
+    width: 97%;
+    left: 0;
+    height: 50px;
+    top: 0;
+    background-color: transparent;
+    color: white;
+    font-family: 'Michroma','sans-serif';
+    display: inline-block;
+    font-size: 20px;
+    position:fixed;
+    padding: 25px;
+}
+
+.languages {
+    left: 4em;
+    float: right;
+}
+
+#menu {
+    float: left;
+    color: white;
+}
+
+#fr {
+    color:white;
+}
+
+#eng {
+    color: var(--highlight);
+}
+
+.menubtn {
+    border:none;
+    font-family: inherit;
+    background-color: inherit;
+    font-size: inherit;
+}
+
+.menubtn:hover {
+    font-size: 106%;
+    animation-duration: 2s;
+    color: var(--highlight);
+}
+
+#menu:hover {
+    color: var(--highlight);
+    animation-duration: 1s;
+}
