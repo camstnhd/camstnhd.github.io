@@ -1,0 +1,30 @@
+#arc_creations {
+    height: 750px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.arctitle {
+    left:0;
+    top: 0;
+    width: 500px;
+    height: 50px;
+    font-family: 'Work Sans', 'sans-serif';
+    color:white;
+}
+
+#arcsubt {
+    top: 11%;
+    font-size:22px ;
+    padding: 10px;
+    position: relative;
+    font-family: 'Michroma', 'sans-serif';
+}
+
+#arct {
+    font-size: 70px;
+    position: relative;
+    right: 23%;
+    padding-bottom: 0%;
+}
