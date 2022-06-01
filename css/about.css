@@ -1,86 +1,77 @@
-#about_me {
-    height: 750px;
-    padding-left: 10%;
-    padding-right: 10%;
+.about {
+    padding-left: 6%;
+    padding-right: 6%;
     padding-top: 2%;
-    top: 0px;
+    padding-bottom: 8%;
 }
+
 
 .camstnhd {
-    left:0;
-    top: 0;
-    width: 500px;
-    height: 50px;
-    font-family: 'Work Sans', 'sans-serif';
-    color:white;
-}
-
-#cam {
-    font-size: 90px;
-    padding-bottom: 0%;
-}
-
-#csubtitle {
-    font-size: 20px;
-    padding: 10px;
-    position: relative;
-    bottom: 13%;
-}
-
-.ABT {
-    color:white;
-    width: 425px;
-    height: 210px;
+    font-size: 96px;
     left: 0;
-    bottom:75%;
-    border-left-width: .5px;
-    border-left-color: white;
-    border-left-style: solid;
 }
-
-#ABT_H {
-    font-family: 'Michroma', 'sans-serif';
-    font-size: 22px;
-    padding-left: 5%;
-    padding-top: 2%;
-}
-
-#ABTpg {
-    font-family: 'Work Sans', 'sans-serif';
-    font-size: 20px;
-    padding-left: 5%;
-    padding-bottom: 5%;
-}
-
-.imgchunk {
+.subtitle {
+    font-size: 18px;
     position: relative;
-    bottom:40%;
-    left: 60%;
-    font-family: 'Michroma', 'sans-serif';
-    width: 450px;
-    height: 450px;
-    color: white;
-    font-size: 17px;
+    bottom: 5.5em;
+    padding-left: .5em;
 }
-#imgcap1 {
-    float: right;
+
+.title_unit {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.email {
+    width: 175px;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+    position: relative;
+    top: 0em;
+    left: 0;
+}
+
+#mail {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    padding-right: 2.5px;
     
 }
 
-#imgcap2 {
-    text-decoration: underline;
-    color: white;
-    float: left;
-    padding-top: 15px;
+#mailtxt {
+    font-size: 22px;
+    vertical-align: middle;
+    padding-left: 2.5px;
+    color: inherit;
 }
 
-#imgcap2:visited {
-    color: white;
+.email:hover {
+    background-color: rgb(74, 77, 114, .25); 
 }
 
-#featuredimg {
-    padding: 0px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
+.aboutme {
+    width: 450px;
+    height: 130px;
+    position: relative;
+    left: 0;
+    bottom: 3em;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2px;
+    padding-left: 25px;
+}
+
+.abtpg {
+    font-size: 20px;
+    vertical-align: middle;
+    padding-top: .5em;
 }

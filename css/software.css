@@ -1,0 +1,64 @@
+.software {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    width: auto;
+}
+
+.software_title {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 84px;
+}
+
+.software_desc {
+    left: 0;
+    top: 3%;
+    font-size: 22px;
+    width: 375px;
+}
+
+.software_list {
+    position: relative;
+    top: -12.5em;
+    left: 50%;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-left: 3px solid white;
+    overflow-y: scroll;
+}
+
+ .table_titles {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    padding-right: 5px;
+}
+
+ th, td {
+    padding: 7.5px;
+    padding-left: 10px;
+  }
+
+  td {
+      font-size: 17px;
+      font-family: 'Inter', sans-serif;
+  }
+
+  .date {
+      color: var(--dullhighlight);
+      font-weight: bold;
+  }
+
+.imglink {
+    width: 30px;
+    height: 30px;
+}
+
+tr:hover {
+    background-color: #242C35;
+}

@@ -1,3 +1,5 @@
 :root {
-    --highlight:#FF967F;
+    --dullhighlight:#4A4D72;
+    --highlight:#5e6297;
+    --dulltext:rgb(188, 188, 188);
 }
