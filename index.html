@@ -1,48 +1,58 @@
-<html>
+<!doctype html>
+<html id ="html"lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta title="Cameron Houde">
-        <link rel="icon" href="data/img/icon.png" type="image/icon type">
-        <link rel="stylesheet", href="css/main.css">
-    </head>
-    <body>
-        <div class="about">
-            <div class="title_unit">
-                <p class="worksans camstnhd">camstnhd</p>
-                <p class="inter subtitle">architectural design + software engineering</p>
-            </div>
+    <script src="js/carousel.js" defer></script>
 
-            <div class="aboutme">
-                <p class="inter abtpg">Hello, I'm a freelance software enginner and architectural designer based in Atlanta. My work ranges from architectural renderings made in Sketchup 3D to software coded from scratch.</p>
-            </div>
+    <title>Cameron Houde</title>
+  </head>
+  <body>
+    <div class="about_me">
+        <span class="cameron_title whiter_txt work_sans">camstnhd</span>
 
-            <div class="email inter">
-                <img src="data/img/email.png" id="mail"><a rel="noopener noreferrer" href="mailto:camstnhd@gmail.com" id="mailtxt">email me</a>
-            </div>
-        </div>
-
-        <div class="software">
-            <p class="worksans software_title">software</p>
-            <p class="rubik software_desc">A list of all my software creations and their associated info.</p>
-        
-            <table class="software_list">
-                <tr class="table_data">
-                    <th class="table_titles">Date</th> <th class="table_titles">Name</th><th class="table_titles">Built With</th><th class="table_titles">Link(s)</th>
-                </tr>
-
-                <tr class="table_data">
-                    <td class="date">31 May 2022</td><td class="name">Personal Website V1</td><td class="technologies">HTML, CSS, JS, Paint.net</td><td class="link"><a href="https://camstnhd.com"><img src="data/img/link.png" class="imglink"></a></td>
+        <div class="cameron_description">
+            I'm a freelance creator who designs architectural renderings and prototypes. In addition, I create my own software from scratch.
+                <br><br>
+            I work with:
+                <br><br>
+            <table class="technologies">
+                <tr>
+                    <td>Python</td>
+                    <td>HTML + CSS</td>
+                    <td>JavaScript</td>
                 </tr>
                 <tr>
-                    <td class="date">26 May 2022</td><td class="name">Connections.js</td><td class="technologies">HTML, CSS, JS, Google Maps API</td><td class="link"><a href="https://github.com/camstnhd/connections.js"><img src="data/img/link.png" class="imglink"></a></td>
+                    <td>PHP</td>
+                    <td>Sketchup 3D</td>
+                    <td>Blender 3D</td>
                 </tr>
-
             </table>
-
         </div>
 
+        <div class="email whiter_txt">
+            <img src="data/img/email.png" id="mail"><a rel="noopener noreferrer" href="mailto:camstnhd@gmail.com">email me</a>
+        </div>
 
-    </body>
-
+        <section aria-label="Newest Photos">
+            <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">〈</button>
+            <button class="carousel-button next" data-carousel-button="next">〉</button>
+            <ul data-slides>
+                <li class="slide" data-active>
+                <img src="https://source.unsplash.com/78A265wPiO4" alt="Nature Image #1">
+                </li>
+                <li class="slide">
+                <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2">
+                </li>
+                <li class="slide">
+                <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
+                </li>
+            </ul>
+            </div>
+        </section>
+    </div>
+  </body>
 </html>
