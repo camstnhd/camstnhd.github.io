@@ -7,8 +7,8 @@
 
 
 body {
-    color:var(--light_slate);
-    background-color: var(--bg);
+    color:#bcc3cb;
+    background-color: #061321;
     font-family: 'Rubik', sans-serif;
     padding: 7.5%;
 }
@@ -18,9 +18,13 @@ body {
 }
 
 .whiter_txt {
-    color: var(--soft_white);
+    color: #e5e9ed;
 }
 
 .grayer_txt {
-    color: var(--light_slate)
+    color: #bcc3cb;
+}
+
+.highlight {
+    color: #5b6f98;;
 }
