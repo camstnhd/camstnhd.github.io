@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
 @import url('variables.css');
 @import url('about.css');
 @import url('software.css');
-
+@import url('links.css');
 
 
 
 body {
-    color:#bcc3cb;
+    color: var(--light_slate);
     background-color: #061321;
     font-family: 'Rubik', sans-serif;
     padding: 7.5%;
@@ -18,13 +19,37 @@ body {
 }
 
 .whiter_txt {
-    color: #e5e9ed;
+    color: var(--soft_white);
 }
 
 .grayer_txt {
-    color: #bcc3cb;
+    color: var(--light_slate);
 }
 
 .highlight {
-    color: #5b6f98;;
+    color: var(--highlight);
 }
+
+.Monospace {
+    font-family: 'Roboto Mono';
+}
+
+.highlight2 {
+    color: #6e91be;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    background-color: rgb(22, 21, 23);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(50, 50, 57);
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(77, 77, 88);
+  }
