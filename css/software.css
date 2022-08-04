@@ -3,10 +3,12 @@
     padding-bottom: 7.5%;
     height: auto;
     border-bottom:2.25px solid rgb(120, 136, 153,.5);
+    display: block;
 }
 .work_table {
-    width: 50%;
+    max-width: 100vh;
     margin-top: 3%;
+    margin-right: 0;
     padding-left: .5%;
     border-left: 1px solid var(--light_slate);
 }
@@ -14,7 +16,7 @@
 .work_table th {
     padding: .5rem;
     text-align: left;
-    font-size: 120%;
+    font-size: 1.20rem;
 }
 
 .work_table td {
