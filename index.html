@@ -4,106 +4,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/main.css" type="text/css">
-
-    <script src="js/carousel.js" defer></script>
-    <script src="translate.js" defer></script>
-
     <title>Cameron Houde</title>
   </head>
+
   <body>
-    <div class="about_me">
-        <div>
-            <span class="cameron_title whiter_txt work_sans">camstnhd</span>
-            <div class="cameron_description">
-                I'm a freelance creator who designs architectural renderings and prototypes. In addition, I create my own software from scratch.
-                    <br><br>
-                I work with:
-                    <br><br>
-                <table class="technologies">
-                    <tr>
-                        <td>Python</td>
-                        <td>HTML + CSS</td>
-                        <td>JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td>PHP</td>
-                        <td>Sketchup 3D</td>
-                        <td>Blender 3D</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="email whiter_txt">
-                <img src="data/img/email.png" id="mail"><a rel="noopener noreferrer" href="mailto:camstnhd@gmail.com">email me</a>
-            </div>
+    <div class="home" id="home"> <!--creating a home section organize information-->
+      <!--creating a flex container for aesthetic purposes-->
+      <div class="home_container_1"> 
+        <div class="choude_title worksans">cameron houde</div>
+        <!--horiz. navbar-->
+        <ul class="navbar inter"> 
+            <li><a href="#home"><b>01</b> Home</a></li><li><a href="#creations"><b>02</b> Creations</a></li><li><a href="#contact"><b>03</b> Home</a></li>
+        </ul>
+      </div>
+      <!--subtitle container-->
+      <div class="choude_subtitle rubik">architectural renders, software creations</div>
+    <!--language options-->
+      <ul class="navbar_lang rubik">
+        <li><button class="en">EN</button></li>
+        <li>/</li>
+        <li><button class="fr">FR</button></li>
+      </ul>
+      <!--description-->
+      <p class="choude_abt rubik">Digital portfolio of architectural renders created in Blender 3D and Sketchup, along with notable software creations made with Python, JavaScript, and other programming/scripting languages. </p>
+      <div class="slideshow-container">
+        <div class="slideshow">
+          <img src="" alt="">
+          <img src=""alt="">
+          <img src=""alt="">
         </div>
-        <div class="container_2">
-            <section aria-label="Newest Photos">
-                <div class="carousel" data-carousel>
-                <button class="carousel-button prev" data-carousel-button="prev">〈</button>
-                <button class="carousel-button next" data-carousel-button="next">〉</button>
-                    <ul data-slides>
-                        <li class="slide" data-active>
-                        <img src="https://i.pinimg.com/564x/0b/80/87/0b8087e748a88eee34713636bbe621b5.jpg" alt="Nature Image #1">
-                        <p>Project 1</p>
-                        </li>
-                        <li class="slide">
-                        <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2">
-                        <p>Project 2</p>
-                        </li>
-                        <li class="slide">
-                        <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
-                        <p>Project 3</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+      </div>
     </div>
-    <div class="work">
-        <div class="work_title">
-            <div style="font-size:300% ;" class="work_sans whiter_txt">My Creations</div>
-            <p class="highlight Monospace">List of things I've created and worked on</p>
-        </div>
-        <table class="work_table">
-            <tr>
-                <th>Year</th>
-                <th>Title</th>
-                <th>Created With</th>
-                <th>Link</th>
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>Personal Website V1</td>
-                <td>JavaScript, HTML, CSS, Paint.net</td>
-                <td><a href="https://www.camstnhd.com/" target="_blank" rel="noopener noreferrer"><img src="data/img/link.png"></a></td>
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>CircutPy Maze Game</td>
-                <td>Python, CircutPy</td>
-                <td><a href="https://github.com/camstnhd/CircutPy-Maze-Game" target="_blank" rel="noopener noreferrer"><img src="data/img/link.png"></a></td>
-            </tr>
-        </table>
+    <div class="creations"id="creations">
+      <div class="creations_title worksans">creations</div>
+      <div class="creations_subtitle rubik">List of things I've created and worked on</div>
+      <table class="work_table inter">
+        <tr>
+          <th>YEAR</th>
+          <th>TITLE</th>
+          <th>BUILT WITH</th>
+          <th>LINK</th>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Personal Website V1</td>
+          <td>JavaScript, HTML, CSS, Paint.net</td>
+          <td><a href="https://www.camstnhd.com/" target="_blank" rel="noopener noreferrer"><img src="data/img/link.png"></a></td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>CircutPy Maze Game</td>
+          <td>Python, CircutPy</td>
+          <td><a href="https://github.com/camstnhd/CircutPy-Maze-Game" target="_blank" rel="noopener noreferrer"><img src="data/img/link.png"></a></td>
+        </tr>
+      </table>
     </div>
-
-    <div class="links">
-        <div>
-            <div class="links_title work_sans whiter_txt">Links</div>
-            <p class="highlight Monospace">Contact, Social Media, & more</p>
-
-            <ul class="Additional">
-                <li><a href="">Commission Doc</a></li>
-                <li><a href="https://blendermarket.com">Blender Marketplace</a></li>
-            </ul>
-            <table class="link_grid">
-                <tr>
-                    <td><a href="mailto:camstnhd@gmail.com"><img src="data/img/email.png"></a></td>
-                    <td><a href="https://www.behance.net/camstnhd"><img src="data/img/Behance.png"></a></td>
-                    <td><a href="https://www.github.com/camstnhd"><img src="data/img/github-logo.png"></a></td>
-                    <td><a href="https://www.instagram.com/camstnhd"><img src="data/img/ig.png"></a></td>
-                </tr>
-            </table>
-        </div>
+    <div class="contact"id="contact">
+      <div class="contact_title worksans">contact</div>
+      <div class="contact_subtitle rubik">social media, contact, links, & more</div>
+      <table class="link_grid">
+        <tr>
+            <td><a href="mailto:camstnhd@gmail.com"><img src="data/img/email.png"></a></td>
+            <td><a href="https://www.behance.net/camstnhd"><img src="data/img/Behance.png"></a></td>
+            <td><a href="https://www.github.com/camstnhd"><img src="data/img/github-logo.png"></a></td>
+            <td><a href="https://www.instagram.com/camstnhd"><img src="data/img/ig.png"></a></td>
+        </tr>
+    </table>
     </div>
   </body>
+
+
 </html>

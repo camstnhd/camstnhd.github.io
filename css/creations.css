@@ -1,0 +1,55 @@
+.creations {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #5B5D7C;
+    display:block;
+}
+
+.creations_title {
+    font-size: 48px;
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.creations_subtitle {
+    font-size: 19px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    width: 350px;
+    stroke-width: 100%;
+    stroke: white;
+    font-weight: 500;
+    height: auto;
+    display: block;
+}
+
+.work_table {
+    max-width: 100vh;
+    text-align: left;
+}
+
+.work_table tr {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.work_table th {
+    padding: .5rem;
+    font-size: 1.20rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.work_table td {
+    padding: .5rem;
+    text-align: left;
+}
+
+.work_table img {
+    width: 30px;
+    height: 30px;
+}
+
+.work_table img:hover {
+    border-radius: 5px;
+    background-color: rgb(215, 137, 47);
+}
