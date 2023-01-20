@@ -40,6 +40,10 @@ a {
 
 
 }
+table {
+    border-collapse: collapse;
+  }
+  
 
 /*universal font rules*/
 
