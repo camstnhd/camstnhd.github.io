@@ -1,90 +1,130 @@
-<!doctype html>
-<html id ="html"lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <title>Cameron Houde</title>
-    <script src="js/translate.js"></script>
-  </head>
-
-  <body>
-    <div class="home" id="home"> <!--creating a home section organize information-->
-      <!--creating a flex container for aesthetic purposes-->
-      <div class="home_container_1"> 
-        <div class="choude_title worksans">cameron houde</div>
-        <!--horiz. navbar-->
-        <ul class="navbar inter"> 
-            <li><a href="#home" class="active"><b>01</b> Home</a></li><li><a href="#creations"><b>02</b> Creations</a></li><li><a href="#contact"><b>03</b> Contact</a></li>
+<html lang="en">
+    <head>
+        <title>Cameron Houde</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=yes">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/x-icon" href="images/website-icon.png">
+        <script src="js/animate.js"></script>
+        <script src="js/translate.js"></script>
+    </head>
+    <body>
+    <div lang="en" id="c-en">
+        <button id="lang-btn" class="manrope" onclick="traduire_fr()">FR</button>
+        <ul id="fixed-nav" class="manrope">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-      <!--subtitle container-->
-      <div class="choude_subtitle rubik">architectural renders, software creations</div>
-    <!--language options-->
-      <!--<ul class="navbar_lang rubik">
-        <li><button id="en">EN</button></li>
-        <li>/</li>
-        <li><button id="fr">FR</button></li>
-      </ul> -->
-      <!--description-->
-      <p class="choude_abt rubik">Digital portfolio of architectural renders created in Blender 3D and Sketchup, along with notable software creations made with Python, JavaScript, and other programming/scripting languages. </p>
-      <div class="slideshow-container">
-        <div class="slideshow">
-          <img src="" alt="">
-          <img src=""alt="">
-          <img src=""alt="">
-        </div>
-      </div>
+        <section id="home" class="">
+            <div id="h-t-container">
+                <div id="h-t" class="manrope">Cameron Houde</div>
+                <div id="h-st" class="manrope">digital studio and portfolio</div>
+            </div>
+            <section id="recent-projects">
+                <img id="recent-projects-img-1"src="https://blog.architizer.com/wp-content/uploads/neue-nationalgalerie-in-the-rain-preview-02_hero.jpg">
+                <a id="rc-img-caption" class="styled-link-1">Detroit Mixed-Use Development</a>
+            </section>
+            <div id="h-desc">
+                A compilation of <span class="styled-link-2">projects</span> and <span class="styled-link-2">research</span> in web/software development, architectural design, urban planning, and environmental science.
+            </div>
+        </section>
+        <section id="portfolio">
+            <div id="p-t-container">
+                <div id="p-t" class="manrope">Portfolio</div>
+                <div id="p-desc">List of all projects and research, with the software used to make them along with their recencies. </div>
+            </div>
+            <div id="p-desc-2">
+                <img id="document-icon" src="images/document-icon.png"><span>See the full <a class="styled-link-1">Architecture Portfolio</a> here in one PDF.</span>
+            </div>
+            <table class="p-table">
+                <th class="manrope">Projects</th>
+                <tr>
+                    <td>2023</td>
+                    <td><a class="styled-link-1">Personal Website v2</a></td>
+                    <td><span>HTML, CSS, JS</span><span>Paint.net, Figma</span></td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td><a class="styled-link-1">Modern Gothic Observatory</a></td>
+                    <td><span>Sketchup 3D</span><span>Blender 3D</span></td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td><a class="styled-link-1">Detroit Mixed-Use Development</a></td>
+                    <td><span>Sketchup 3D</span><span>FreeCAD</span></td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <div id="c-t" class="manrope">Contact</div>
+            <table class="link_grid">
+                <tr>
+                    <td><a href="mailto:camstnhd@gmail.com"><img src="images/email.png"alt="email" ></a></td>
+                    <td><a href="https://www.behance.net/camstnhd"><img src="images/Behance.png"alt="Behance"></a></td>
+                    <td><a href="https://www.github.com/camstnhd"><img src="images/github-logo.png"alt="Github"></a></td>
+                    <td><a href="https://www.instagram.com/camstnhd"><img src="images/ig.png"alt="instagram"></a></td>
+                </tr>
+            </table>
+        </section>
     </div>
-    <div class="creations"id="creations">
-      <div class="creations_title worksans">creations</div>
-      <div class="creations_subtitle rubik">List of things I've created and worked on</div>
-      <table class="work_table inter">
-        <tr>
-          <th>YEAR</th>
-          <th>TITLE</th>
-          <th>BUILT WITH</th>
-          <th>LINK</th>
-        </tr>
-        <tr>
-          <td>2023</td>
-          <td>Petit Banlieue</td>
-          <td>JavaScript, HTML, CSS, Figma, Blender 3D, Sketchup 3D</td>
-          <td><a href="https://www.camstnhd.com/petitbanlieue"><img alt="link" src="data/img/link.png"></a></td>
-        </tr>
-        <tr>
-          <td>2022</td>
-          <td>Personal Website V1</td>
-          <td>JavaScript, HTML, CSS, Paint.net</td>
-          <td><a href="https://www.camstnhd.com/" target="_blank" rel="noopener noreferrer"><img alt="link" src="data/img/link.png"></a></td>
-        </tr>
-        <tr>
-          <td>2022</td>
-          <td>CircutPy Maze Game</td>
-          <td>Python, CircutPy</td>
-          <td><a href="https://github.com/camstnhd/CircutPy-Maze-Game" target="_blank" rel="noopener noreferrer"><img alt="link" src="data/img/link.png"></a></td>
-        </tr>
-        <tr>
-          <td>2021</td>
-          <td>Maison Bordelaise</td>
-          <td>Sketchup 3D</td>
-          <td><a href="https://www.instagram.com/p/Cns-2rPsjBj/" target="_blank" rel="noopener noreferrer"><img alt="link" src="data/img/link.png"></a></td>
-        </tr>
-      </table>
+    <div lang="fr" id="c-fr" style="display: none;">
+        <button id="lang-btn" class="manrope" onclick="traduire_en()">EN</button>
+        <ul id="fixed-nav" class="manrope">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacter</a></li>
+        </ul>
+        <section id="home" class="">
+            <div id="h-t-container">
+                <div id="h-t" class="manrope">Cameron Houde</div>
+                <div id="h-st" class="manrope">studio et portfolio</div>
+            </div>
+            <section id="recent-projects">
+                <img id="recent-projects-img-1"src="https://blog.architizer.com/wp-content/uploads/neue-nationalgalerie-in-the-rain-preview-02_hero.jpg">
+                <a id="rc-img-caption" class="styled-link-1">Détroit Développement 'Mixed-Use'</a>
+            </section>
+            <div id="h-desc">
+                Une compilation des <span class="styled-link-2">projets</span> et <span class="styled-link-2">recherche</span> dans le développement du logiciel, l'architecture, et les sciences de l'environnement.
+            </div>
+        </section>
+        <section id="portfolio">
+            <div id="p-t-container">
+                <div id="p-t" class="manrope">Portfolio</div>
+                <div id="p-desc">Liste pour tous des projets et recherche, avec le logiciel utilisé pour les créer avec l'anée respective. </div>
+            </div>
+            <div id="p-desc-2">
+                <img id="document-icon" src="images/document-icon.png"><span>Voir tout le <a class="styled-link-1">Portfolio d'Architecture</a> ici dans un PDF.</span>
+            </div>
+            <table class="p-table">
+                <th class="manrope">Projets</th>
+                <tr>
+                    <td>2023</td>
+                    <td><a class="styled-link-1">Site Internet Personnel v2</a></td>
+                    <td><span>HTML, CSS, JS</span><span>Paint.net, Figma</span></td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td><a class="styled-link-1">Observatoire Moderne et Gothique</a></td>
+                    <td><span>Sketchup 3D</span><span>Blender 3D</span></td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td><a class="styled-link-1">Détroit Développement 'Mixed-Use'</a></td>
+                    <td><span>Sketchup 3D</span><span>FreeCAD</span></td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <div id="c-t" class="manrope">Contacter</div>
+            <table class="link_grid">
+                <tr>
+                    <td><a href="mailto:camstnhd@gmail.com"><img src="images/email.png"alt="email" ></a></td>
+                    <td><a href="https://www.behance.net/camstnhd"><img src="images/Behance.png"alt="Behance"></a></td>
+                    <td><a href="https://www.github.com/camstnhd"><img src="images/github-logo.png"alt="Github"></a></td>
+                    <td><a href="https://www.instagram.com/camstnhd"><img src="images/ig.png"alt="instagram"></a></td>
+                </tr>
+            </table>
+        </section>
     </div>
-    <div class="contact"id="contact">
-      <div class="contact_title worksans">contact</div>
-      <div class="contact_subtitle rubik">social media, contact, links, & more</div>
-      <table class="link_grid">
-        <tr>
-            <td><a href="mailto:camstnhd@gmail.com"><img src="data/img/email.png"alt="email" ></a></td>
-            <td><a href="https://www.behance.net/camstnhd"><img src="data/img/Behance.png"alt="Behance"></a></td>
-            <td><a href="https://www.github.com/camstnhd"><img src="data/img/github-logo.png"alt="Github"></a></td>
-            <td><a href="https://www.instagram.com/camstnhd"><img src="data/img/ig.png"alt="instagram"></a></td>
-        </tr>
-    </table>
-    </div>
-  </body>
-
-
 </html>

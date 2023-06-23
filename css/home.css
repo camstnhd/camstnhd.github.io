@@ -1,96 +1,80 @@
-.home {
-    padding-bottom: 3rem;
-    border-bottom: 2px solid #5B5D7C;
-    display:block;
-}
-.home_container_1 {
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-}
-
-.home_container_2 {
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-}
-.choude_title {
-    font-size: 4rem;
-    min-width: 70vh;
-    max-height: 13vh;
-    display: inline-block;
-    padding:0;
-}
-.navbar {
-    max-width: 40vh;
-    height: auto;
-    display: inline-block;
-    padding-left: 0;
-    position: sticky;
-    right: 5%;
-    top: 5%;
-}
-
-.navbar > li {
-    display: inline-block;
-    padding: .25rem;
-    font-size: 1rem;
-}
-
-.navbar > li > a:hover {
-    padding-bottom: .25rem;
-    border-bottom: 4px solid rgb(237, 125, 40);
-}
-
-.navbar > li > a.active {
-    padding-bottom: .25rem;
-    border-bottom: 4px solid #5B5D7C;
-}
-
-.choude_subtitle {
-    font-size: 1.188rem;
-    padding: .25rem;
-    max-width: 49vh;
-    stroke-width: 100%;
-    stroke: white;
-    font-weight: 500;
-    height: auto;
-    padding-right: 1rem;
-    display: inline-block;
-}
-
-.navbar_lang {
-    border-left: 2px solid #5B5D7C;
-    display: inline-block;
-    padding: 1rem;
-}
-
-.navbar_lang > li {
-    display: inline-block;
-    padding: 0rem;
-    font-size: 1rem;
-    margin: 0;
-}
-
-.navbar_lang > li > button {
-    font-weight: bold;
-    background: none;
+#lang-btn {
+    background-color: transparent;
+    border: 1.65px solid white;
     color: white;
-    font-family: 'inter';
-    font-size: 1rem;
-    border: 1.5px solid rgba(255, 255, 255, 0);
-    border-radius: 5px;
-    padding: .05rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 7.5px;
+    position: fixed;
+    right: 2em;
+    top: 3em;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
 }
 
-.navbar_lang > li > button:hover {
-    color:rgb(237, 125, 40) ;
+#fixed-nav {
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    list-style-type: none;
+    text-align: right;
+    font-size: 1.3rem;
+    line-height: 1.40;
+    text-decoration: underline white .15px;
+    color: white;
 }
 
-.choude_abt {
-    padding-left: 0.938rem;
-    border-left: 2px solid #5B5D7C;
-    max-width: 100vh;
-    max-height: 15vh;
-    display: inline-block;
+#home {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 3px solid rgba(44, 44, 54, 0.793);
+}
+
+#h-t-container {
+    line-height: 1.25;
+    display: flex;
+    flex-direction: column;
+}
+
+#h-t {
+    font-size: 3.35rem;
+    color: white;
+}
+
+#h-st {
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    font-size: 1.05rem;
+    color: var(--lightgreyblue);
+}
+
+#h-desc {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: 1.35rem;
+    padding-right: 30rem;
+    font-size: 1.15rem;
+    border-left: 1px solid white;
+}
+
+#recent-projects {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#recent-projects-img-1 {
+    width: 40rem;
+    height: 20rem;
+    box-shadow: 2px 2px 2px 2px rgb(26, 25, 25);
+    border-radius: 2.5px;
+}
+
+#rc-img-caption {
+    margin-top: 1rem;
+    font-size: 1.1rem;
 }

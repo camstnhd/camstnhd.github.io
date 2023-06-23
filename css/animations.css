@@ -1,0 +1,24 @@
+@keyframes linkleft {
+    100% {transform: translate(-20px);}
+    100% {color: var(--highlightorange);}
+}
+
+#fixed-nav > li:hover {
+    content: '+';
+    animation-name: linkleft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    text-decoration: underline var(--highlightorange) .15px;
+    transition: all .5s ease-out;
+}
+
+#lang-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.styled-link-1:hover , .styled-link-2:hover {
+    color: var(--highlightorange);
+    text-decoration-color:var(--highlightorange) ;
+}
