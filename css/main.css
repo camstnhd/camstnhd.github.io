@@ -1,58 +1,59 @@
-/* Fonts imported from google fonts:
-    work sans - titles
-    rubik - paragraph text
-    inter - subtitles & numbers
-*/
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'); /*work sans*/
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); /*rubik*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap'); /*inter*/
-/*
-    importing other css files
-*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url(home.css);
-@import url(creations.css);
+@import url(work.css);
 @import url(contact.css);
-/*
-    unversial rules applied to the document!!
-*/
+@import url(animations.css);
+@import url(responsiveness.css);
+:root {
+    --darkblkblue:#090d18;
+    --lightgreyblue:#878e9d;
+    --babyblue:#CDD1E4;
+    --highlightorange:#fb7b36;
+}
+/* variables ^, universals v */
 body {
-    background-color: #1A1B24;
-    color: white;
-    padding:15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    overflow-y: scroll;
+    background-color: var(--darkblkblue);
+    color: #c2c5d4;
+    font-family: 'inter';
+    display: block;
+    padding: 0;
+    margin: 0;
     height: auto;
 }
 
 ::-webkit-scrollbar {
     background-color: transparent;
-    width: 8px;
+    width: 7px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(57, 57, 60);
+    background-color: rgba(164, 164, 164, 0.545);
     border-radius: 5px;
 }
 
+.manrope {
+    font-family: 'Manrope';
+}
+
+a:visited {
+    color: inherit;
+}
+
 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.styled-link-1 {
     color: white;
-    text-decoration: none;
-
-
+    text-decoration: underline .4px;
 }
-table {
-    border-collapse: collapse;
-  }
-  
 
-/*universal font rules*/
+.styled-link-1::after {
+    content: ' ↗';
+}
 
-.worksans {
-    font-family:'Work Sans';
-}
-.rubik {
-    font-family:'Rubik';
-}
-.inter {
-    font-family:'Inter';
+.styled-link-2 {
+    color: white;
+    text-decoration: underline .7px white;
 }

@@ -1,18 +1,11 @@
-const choude_subtitle = document.getElementsByClassName('choude_subtitle')
 
-const button_fr = document.getElementById('fr')
-const button_en = document.getElementById('en')
-let isEnglish = true
 
-function french() {
-    choude_subtitle.innerHTML = "les visualisations architecturales, créations logiciels"
+function traduire_fr() {
+    document.getElementById("c-fr").style.display = "inherit";
+    document.getElementById("c-en").style.display = "none";
 }
-function english() {
-    choude_subtitle.innerHTML = "architectural renders, software creations"
+
+function traduire_en() {
+    document.getElementById("c-fr").style.display = "none";
+    document.getElementById("c-en").style.display = "inherit";
 }
-button_fr.addEventListener("click", function(e) {
-    french()
-});
-button_en.addEventListener("click", function() {
-    english()
-});
