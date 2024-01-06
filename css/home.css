@@ -71,10 +71,12 @@
     width: 40rem;
     height: 20rem;
     box-shadow: 2px 2px 2px 2px rgb(26, 25, 25);
+    margin-bottom: 1.5rem;
     border-radius: 2.5px;
 }
 
 #rc-img-caption {
-    margin-top: 1rem;
-    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
