@@ -1,0 +1,18 @@
+a > img:hover {
+    background-color: orange;
+    border-radius: .2rem;
+    padding: .1rem;
+}
+
+a {
+    transition: color 0.3s ease-in;
+    transition: color 0.3s ease-out;
+    transition: text-decoration 0.3s ease-in;
+    transition: text-decoration 0.3s ease-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(138, 181, 181);
+    font-weight: 400;
+}

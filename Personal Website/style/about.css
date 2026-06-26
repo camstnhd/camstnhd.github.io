@@ -1,0 +1,14 @@
+.about {
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+}
+
+.about h3 {
+    font-size: clamp(.65rem, 5vw, 2rem);
+    line-height: 0.5;
+    font-weight: 400;
+}
+
+.about > p {
+    max-width: 75ch;
+}

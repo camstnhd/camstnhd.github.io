@@ -1,0 +1,19 @@
+
+@media (max-width:1000px) {
+    p{
+        max-width: 100%;
+    }
+    body {
+        padding: 1rem;
+    }
+    .hero > h3 {
+        padding-left:0;
+    }
+    
+}
+
+@media (min-width:1000px) {
+       body {
+        padding: 4rem;
+       } 
+}
